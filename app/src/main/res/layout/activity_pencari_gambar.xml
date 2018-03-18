@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="35dp"
+    android:gravity="center_horizontal"
+    tools:context="com.example.levie.levie_1202152324_modul4.PencariGambar">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cari Gambar"
+        android:textSize="25sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginBottom="10sp"/>
+
+    <EditText
+        android:id="@+id/linkgambar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan URL Gambar"
+        android:layout_marginBottom="5sp"/>
+
+    <Button
+        android:id="@+id/btnmencari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="klik untuk mencari gambar"
+        android:layout_marginBottom="5sp"/>
+
+    <ImageView
+        android:id="@+id/gambar"
+        android:layout_width="350dp"
+        android:layout_height="300dp" />
+
+</LinearLayout>

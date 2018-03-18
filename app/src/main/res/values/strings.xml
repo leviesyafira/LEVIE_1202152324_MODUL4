@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">LEVIE_1202152324_MODUL4</string>
+    <string-array name="namaMahasiswa">
+        <item>LEVIE</item>
+        <item>EXA</item>
+        <item>DAYANE</item>
+        <item>SHINTHYA</item>
+        <item>APRIL</item>
+        <item>NABILA</item>
+        <item>INTAN</item>
+        <item>FARAS</item>
+        <item>IKRAM</item>
+        <item>ARIN</item>
+        <item>DILLA</item>
+        <item>FINA</item>
+        <item>RATIH</item>
+
+    </string-array>
+</resources>
